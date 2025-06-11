@@ -1,0 +1,77 @@
+
+  button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 0.3s ease;
+  }
+
+  /* SUBSCRIBE Button */
+  button.subscribe {
+    background-color: rgb(199, 0, 0);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 110px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 8px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .subscribe:hover {
+    background-color: rgb(179, 0, 0);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  .subscribe:active {
+    transform: scale(0.97);
+    opacity: 0.7;
+  }
+
+  /* JOIN Button */
+  button.join {
+    background-color: white;
+    color: rgb(36, 112, 225);
+    border: 2px solid rgb(36, 112, 225);
+    height: 36px;
+    width: 70px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 8px;
+    font-weight: 600;
+  }
+
+  .join:hover {
+    background-color: rgb(36, 112, 225);
+    color: white;
+    box-shadow: 0 4px 10px rgba(36, 112, 225, 0.3);
+  }
+
+  .join:active {
+    transform: scale(0.97);
+    opacity: 0.8;
+  }
+
+  /* TWEET Button */
+  button.tweet {
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 90px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    box-shadow: 0 4px 8px rgba(29, 155, 240, 0.3);
+  }
+
+  .tweet:hover {
+    background-color: rgb(24, 145, 230);
+    box-shadow: 0 6px 12px rgba(29, 155, 240, 0.5);
+  }
+
+  .tweet:active {
+    transform: scale(0.96);
+    opacity: 0.8;
+  }
