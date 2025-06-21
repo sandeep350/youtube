@@ -66,6 +66,20 @@
       margin: 0;
       display: block;
     }
+    .channel_pic{
+      display: inline-block;
+      width:50px;
+      vertical-align: top;;
+    }
+    .channel_info{
+      display:inline-block;
+      width: 200px;
+      margin-top: 0px;;
+    }
+    .profile_pic{
+      width:50px;
+      border-radius: 25px;
+    }
   </style>
 </head>
 <body>
@@ -79,16 +93,22 @@
       <img class="thumbnail1" src="one.png" alt="Video thumbnail">
     </div>
     <div>
-      <img src="pic1.png">
-      <p class="title1">
-      Talking Tech and AI with Google CEO Sundar Pichai!
-    </p>
-    <p class="author1">
-      Marques Brownlee
-    </p>
-    <p class="views1">
-      3.4M views · 6 months ago
-    </p>
+      <div class = "channel_pic">
+        <img class ="profile_pic" src="pic1.png">
+      </div>
+      <div class = "channel_info">
+        <p class="title1">
+          Talking Tech and AI with Google CEO Sundar Pichai!
+        </p>
+        <p class="author1">
+          Marques Brownlee
+        </p>
+        <p class="views1">
+          3.4M views · 6 months ago
+        </p>
+      </div>
+      
+      
     </div>
     
     
@@ -96,8 +116,13 @@
 
   <!-- Begin video 2 -->
   <div class="video-container1">
-    <img class="thumbnail1" src="two.png" alt="Video thumbnail">
-    <p class="title1">
+    <div><img class="thumbnail1" src="two.png" alt="Video thumbnail"></div>
+    <div>
+      <div class="channel_pic">
+        <img class="profile_pic" src="pic2.png">
+      </div>
+      <div class="channel_info">
+        <p class="title1">
       Try Not To Laugh Challenge #9
     </p>
     <p class="author1">
@@ -106,11 +131,22 @@
     <p class="views1">
       19M views · 4 years ago
     </p>
+
+      </div>
+      </div>
+    
   </div>
 
   <!-- Begin video 3 -->
   <div class="video-container1">
-    <img class="thumbnail1" src="three.png" alt="Video thumbnail">
+    <div>
+      <img class="thumbnail1" src="three.png" alt="Video thumbnail">
+    </div>
+    <div>
+      <div class="channel_pic">
+        <img class="profile_pic" src="pic3.png" >
+      </div>
+      <div class="channel_info">
     <p class="title1">
       Crazy Tik Toks Taken Moments Before DISASTER
     </p>
@@ -120,6 +156,12 @@
     <p class="views1">
       12M views · 1 year ago
     </p>
+      </div>
+
+    </div>
+    
+    
+
   </div>
 
   <!-- Begin video 4 -->
