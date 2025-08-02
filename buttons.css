@@ -1,43 +1,47 @@
-/* buttons.css */
-
+/* Style for the "Subscribe" button */
 .subscribe {
-  background-color: red;
-  color: white;
-  border: none;
-  padding: 10px 16px;
-  border-radius: 4px;
-  font-weight: bold;
-  cursor: pointer;
+  background-color: red;         /* Red background */
+  color: white;                  /* White text */
+  border: none;                  /* No border */
+  padding: 10px 16px;            /* Padding: top/bottom 10px, left/right 16px */
+  border-radius: 4px;            /* Slightly rounded corners */
+  font-weight: bold;             /* Bold text */
+  cursor: pointer;               /* Pointer cursor on hover */
 }
 
+/* Hover effect for "Subscribe" button */
 .subscribe:hover {
-  opacity: 0.8;
+  opacity: 0.8;                  /* Slightly transparent when hovered */
 }
 
+/* Style for the "Join" button */
 .join {
-  background-color: white;
-  color: blue;
-  border: 1px solid blue;
-  padding: 8px 14px;
-  border-radius: 4px;
-  font-weight: bold;
-  cursor: pointer;
+  background-color: white;       /* White background */
+  color: blue;                   /* Blue text */
+  border: 1px solid blue;        /* Blue border */
+  padding: 8px 14px;             /* Padding: top/bottom 8px, left/right 14px */
+  border-radius: 4px;            /* Slightly rounded corners */
+  font-weight: bold;             /* Bold text */
+  cursor: pointer;               /* Pointer cursor on hover */
 }
 
+/* Hover effect for "Join" button */
 .join:hover {
-  background-color: rgba(0, 0, 255, 0.1);
+  background-color: rgba(0, 0, 255, 0.1);  /* Light blue background on hover */
 }
 
+/* Style for the "Tweet" button */
 .tweet {
-  background-color: #1DA1F2;
-  color: white;
-  border: none;
-  padding: 8px 16px;
-  border-radius: 20px;
-  font-weight: bold;
-  cursor: pointer;
+  background-color: #1DA1F2;     /* Twitter blue background */
+  color: white;                  /* White text */
+  border: none;                  /* No border */
+  padding: 8px 16px;             /* Padding: top/bottom 8px, left/right 16px */
+  border-radius: 20px;           /* Fully rounded (pill shape) */
+  font-weight: bold;             /* Bold text */
+  cursor: pointer;               /* Pointer cursor on hover */
 }
 
+/* Hover effect for "Tweet" button */
 .tweet:hover {
-  background-color: #0d8ddb;
+  background-color: #0d8ddb;     /* Darker blue background on hover */
 }
