@@ -48,7 +48,4 @@ Each video block includes:
 ## License
 
 This project is provided for educational and demonstration purposes. Feel free to modify and expand upon it.
-```
-
----
 
