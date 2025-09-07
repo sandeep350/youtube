@@ -3,6 +3,7 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
+    /* Apply box-sizing to all elements so padding/border don't affect width */
     * {
       box-sizing: border-box;
     }
@@ -12,6 +13,7 @@
       margin: 20px;
     }
 
+    /* Search bar styling */
     .search_bar {
       padding: 5px;
       font-size: 16px;
@@ -24,6 +26,7 @@
       display: block;
     }
 
+    /* Container for each video card */
     .video-container1 {
       width: 300px;
       margin-bottom: 30px;
@@ -32,11 +35,13 @@
       margin-right: 20px;
     }
 
+    /* Thumbnail image styling */
     .thumbnail1 {
       width: 100%;
       display: block;
     }
 
+    /* Video title styling */
     .title1 {
       font-weight: bold;
       font-size: 18px;
@@ -44,6 +49,7 @@
       margin: 10px 0 5px 0;
     }
 
+    /* Author and views text styling */
     .author1,
     .views1 {
       font-size: 14px;
@@ -51,23 +57,27 @@
       margin: 2px 0;
     }
 
+    /* Channel picture container */
     .channel_pic {
       display: inline-block;
       width: 50px;
       vertical-align: top;
     }
 
+    /* Channel info container (title, author, views) */
     .channel_info {
       display: inline-block;
       width: 230px;
       padding-left: 10px;
     }
 
+    /* Profile picture styling */
     .profile_pic {
       width: 40px;
-      border-radius: 50%;
+      border-radius: 50%; /* Makes profile pictures circular */
     }
 
+    /* Adds spacing below thumbnail */
     .thumbnail_container {
       margin-bottom: 10px;
     }
@@ -75,9 +85,12 @@
 </head>
 <body>
 
+  <!-- Search bar at the top -->
   <input class="search_bar" type="text" placeholder="Search">
 
-  <!-- Video 1 to 12 (All with consistent structure) -->
+  <!-- Each video block (thumbnail + channel info) -->
+  
+  <!-- Video 1 -->
   <div class="video-container1">
     <div class="thumbnail_container">
       <img class="thumbnail1" src="one.png" alt="Video thumbnail">
@@ -94,6 +107,7 @@
     </div>
   </div>
 
+  <!-- Video 2 -->
   <div class="video-container1">
     <div class="thumbnail_container">
       <img class="thumbnail1" src="two.png" alt="Video thumbnail">
@@ -110,6 +124,7 @@
     </div>
   </div>
 
+  <!-- Video 3 -->
   <div class="video-container1">
     <div class="thumbnail_container">
       <img class="thumbnail1" src="three.png" alt="Video thumbnail">
@@ -126,6 +141,7 @@
     </div>
   </div>
 
+  <!-- Video 4 -->
   <div class="video-container1">
     <div class="thumbnail_container">
       <img class="thumbnail1" src="four.png" alt="Video thumbnail">
@@ -142,6 +158,7 @@
     </div>
   </div>
 
+  <!-- Video 5 -->
   <div class="video-container1">
     <div class="thumbnail_container">
       <img class="thumbnail1" src="five.png" alt="Video thumbnail">
@@ -158,6 +175,7 @@
     </div>
   </div>
 
+  <!-- Video 6 -->
   <div class="video-container1">
     <div class="thumbnail_container">
       <img class="thumbnail1" src="six.png" alt="Video thumbnail">
@@ -174,6 +192,7 @@
     </div>
   </div>
 
+  <!-- Video 7 -->
   <div class="video-container1">
     <div class="thumbnail_container">
       <img class="thumbnail1" src="seven.png" alt="Video thumbnail">
@@ -190,6 +209,7 @@
     </div>
   </div>
 
+  <!-- Video 8 -->
   <div class="video-container1">
     <div class="thumbnail_container">
       <img class="thumbnail1" src="eight.png" alt="Video thumbnail">
@@ -206,6 +226,7 @@
     </div>
   </div>
 
+  <!-- Video 9 -->
   <div class="video-container1">
     <div class="thumbnail_container">
       <img class="thumbnail1" src="nine.png" alt="Video thumbnail">
@@ -222,6 +243,7 @@
     </div>
   </div>
 
+  <!-- Video 10 -->
   <div class="video-container1">
     <div class="thumbnail_container">
       <img class="thumbnail1" src="ten.png" alt="Video thumbnail">
@@ -238,6 +260,7 @@
     </div>
   </div>
 
+  <!-- Video 11 -->
   <div class="video-container1">
     <div class="thumbnail_container">
       <img class="thumbnail1" src="eleven.png" alt="Video thumbnail">
@@ -254,6 +277,7 @@
     </div>
   </div>
 
+  <!-- Video 12 -->
   <div class="video-container1">
     <div class="thumbnail_container">
       <img class="thumbnail1" src="twelve.png" alt="Video thumbnail">
