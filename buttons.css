@@ -8,7 +8,6 @@
   font-weight: bold;             /* Bold text */
   cursor: pointer;               /* Pointer cursor on hover */
 }
-
 /* Hover effect for "Subscribe" button */
 .subscribe:hover {
   opacity: 0.8;                  /* Slightly transparent when hovered */
